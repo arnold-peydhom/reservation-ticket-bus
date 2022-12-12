@@ -1,0 +1,689 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url("../images/foot.png.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    top: -140px;
+    min-height: 550px;
+}
+
+#route {
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+    font-size: 30px;
+
+}
+
+.ombre {
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    min-height: 550px;
+    opacity: 0.75;
+}
+
+.floutage {
+    width: 100%;
+    min-height: 50px;
+    background: linear-gradient(270deg, #ff7c25, rgb(37, 87, 87));
+    background-size: cover;
+}
+
+.cadretext {
+    position: relative;
+    top: 200px;
+    left: 320px;
+    width: 700px;
+    height: 50px;
+}
+
+.text {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: -140px;
+    margin-left: 20px;
+    opacity: 0.75;
+
+}
+
+.textt {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: -120px;
+    opacity: 0.75;
+    margin-left: 20px;
+}
+
+.colorl {
+    color: #ff6600;
+}
+
+.texttt {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: -100px;
+    opacity: 0.75;
+    margin-left: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    transition: 2s;
+}
+
+.navbar li a:hover {
+    background: linear-gradient(to right, #77b5fe, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+#f {
+    color: black;
+    font-size: 12px;
+    transition: 2s;
+    position: relative;
+    top: -2px;
+}
+
+#f:hover {
+    background: linear-gradient(to right, #77b5fe, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.navbar li {
+    list-style: none;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 19px;
+    bottom: 81px;
+    left: 750px;
+}
+
+.logo {
+    font-size: 35px;
+    position: relative;
+    right: 400px;
+    bottom: 109px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 700px;
+}
+
+.colorlogo {
+    color: #e91212f5;
+}
+
+
+/*.slide{
+    float: left;
+    border:1px solid red;
+}
+@keyframes glisse{
+    0%{
+        transform: translateX(0);
+    } 
+    50%{
+        transform: translateX(-1366px);
+    } 
+    75%{
+        transform: translateX(-2732px);
+    }
+
+    100%{
+        transform: translateX(0);
+    } 
+}
+.slides{
+    width: calc(1366px * 3);
+    animation: glisse 30s infinite;
+    margin-top: -120px;
+    border:1px solid red;
+}
+.slider{
+    margin-top: 460px;
+    border:1px solid red;
+}
+.arriere_plan .slider{
+    margin: 0px;
+    padding: 0px;
+    width: 1366px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    bottom: 40px;
+    border:1px solid red;
+}
+.arriere_plan{
+    margin-top:-110px;
+    height: 500px;
+    border:1px solid red;
+}
+*/
+#fleche {
+    margin-top: 10px;
+    position: relative;
+    left: 683px;
+    bottom: 148px;
+    font-size: 48px;
+    background: linear-gradient(to right, #77b5fe, #ff6600);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+
+}
+
+.destination {
+    width: 350px;
+    margin-left: 280px;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #77b5fe, #ff6600);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*partrnaires*/
+.partenaire {
+    width: 350px;
+    margin-left: 190px;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #77b5fe, #ff6600);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.trai {
+    width: 140px;
+    background: linear-gradient(270deg, #ff6600, #77b5fe);
+    height: 2px;
+    position: relative;
+    left: 190px;
+    bottom: 30px;
+}
+
+.par {
+    margin-left: 140px;
+}
+
+/*fin partenaire*/
+.trait1 {
+    width: 140px;
+    background: linear-gradient(270deg, #ff6600, #77b5fe);
+    height: 1.5px;
+    position: relative;
+    left: 280px;
+    bottom: 70px;
+}
+
+.class1 {
+    margin-top: -180px;
+    position: relative;
+    right: 80px;
+}
+
+/**/
+.first1 {
+    width: 420px;
+    margin-left: 100px;
+}
+
+.first2 {
+    width: 420px;
+    margin-left: 800px;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.text1 {
+    font-size: 30px;
+    margin-left: 700px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -1px;
+    position: relative;
+    top: -266px;
+    color: #18be;
+}
+
+.tex2 {
+    margin-top: -100px;
+    position: relative;
+    top: -160px;
+    position: relative;
+    right: 590px;
+    font-size: 18px;
+}
+
+.tex1 {
+    margin-left: 3px;
+    margin-top: -100px;
+    position: relative;
+    bottom: 174px;
+    left: 590px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.text2 {
+    font-size: 30px;
+    margin-left: -500px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #18be;
+    margin-top: -1px;
+    position: relative;
+    bottom: 268px;
+}
+
+.back {
+    background-color: beige;
+    height: 1085px;
+    margin-top: -30px;
+}
+
+.nosfinal {
+    width: 800px;
+    margin-left: 600px;
+    position: relative;
+    bottom: 65px;
+    height: 40px;
+}
+
+.nosfinal1 {
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+/*our new lester*/
+.destinationn {
+    width: 350px;
+    margin-left: 200px;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #77b5fe, #ff6600);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.traitt {
+    width: 140px;
+    background: linear-gradient(270deg, #ff6600, #77b5fe);
+    height: 2px;
+    position: relative;
+    left: 204px;
+    bottom: 28px;
+}
+
+.attachement {
+    background-image: url("../images/fixed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.attachementflout {
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: -500px;
+    opacity: 0.85;
+    background-attachment: fixed;
+}
+
+#rr {
+    font-size: 300px;
+    position: relative;
+    top: 80px;
+    left: 950px;
+    color: white;
+    opacity: 0.5;
+    transform: rotate(-45deg);
+}
+
+.noms {
+    position: relative;
+    top: -168px;
+    right: 250px;
+    width: 325px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px 0px 12px 0px;
+    transition: 3s;
+}
+
+.noms:hover {
+    position: relative;
+    right: -30px;
+    border-radius: 12px;
+}
+
+.email {
+    position: relative;
+    top: -175px;
+    right: 125px;
+    width: 325px;
+    left: 130px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px 0px 12px 0px;
+    transition: 3s;
+}
+
+.commentaire {
+    position: relative;
+    top: -160px;
+    right: 125px;
+    left: 210px;
+    font-size: 17px;
+    border: none;
+    border-radius: 12px 0px 12px 0px;
+    width: 325px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 3s;
+}
+
+.boutton {
+    width: 502px;
+    height: 35px;
+    font-size: 20px;
+    position: relative;
+    background-color: rgb(37, 87, 87);
+    color: white;
+    right: 295px;
+    bottom: 100px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.boutton:hover {
+    color: black;
+    background: linear-gradient(to right, #77b5fe, #ff6600);
+}
+
+.commentaire:hover {
+    border-radius: 12px;
+    position: relative;
+    left: 42px;
+
+}
+
+.email:hover {
+    border-radius: 12px;
+    position: relative;
+    left: 30px;
+}
+
+/**footer**/
+
+.bloc_footer {
+    background-image: url("image footer.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 285px;
+    margin: -1885px 0px 0px 0px;
+}
+
+.footer_1 {
+    background-image: url("font\ connexion.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    margin: 1600px 0px 0px 0px;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.footer_1 .footer_2 {
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.bar {
+    display: block;
+    width: 105px;
+    height: 4px;
+    background: linear-gradient(270deg, #18be, #ff6600);
+    position: relative;
+    top: -90px;
+    right: 120px;
+}
+
+.bar_1 {
+    display: block;
+    width: 95px;
+    height: 4px;
+    background: linear-gradient(270deg, #18be, #ff6600);
+    position: relative;
+    top: -90px;
+    left: 228px;
+}
+
+.bar_2 {
+    display: block;
+    width: 75px;
+    height: 4px;
+    background: linear-gradient(270deg, #18be, #ff6600);
+    position: relative;
+    top: -485px;
+    left: 244px;
+}
+
+.bar_4 {
+    display: block;
+    width: 95px;
+    height: 4px;
+    background: linear-gradient(270deg, #18be, #ff6600);
+    position: relative;
+    top: -88px;
+    left: -50px;
+}
+
+marquee {
+    position: relative;
+    bottom: 3px;
+}
+
+.bar_7 {
+    display: block;
+    width: 95px;
+    height: 4px;
+    background: linear-gradient(270deg, #18be, #ff6600);
+    position: relative;
+    top: -115px;
+    left: -237px;
+}
+
+.foot_1 {
+    color: white;
+    width: 270px;
+    margin: 0px 0px 0px 70px;
+    position: relative;
+    top: 50px;
+
+}
+
+#twitter {
+    color: #00acee;
+}
+
+#instagram {
+    background: linear-gradient(to right, #8a3ab9, #4c68d7, #cd486b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#facebook {
+    color: #3b5998;
+}
+
+#phone {
+    color: #22780f;
+}
+
+#enveloppe {
+    color: #4c68d7;
+}
+
+.foot_1 i {
+    position: relative;
+    bottom: 16px;
+}
+
+.foot_1 .le {
+    position: relative;
+    top: -33px;
+}
+
+.foot_2 {
+    width: 235px;
+    margin: -250px 0px 0px 415px;
+    color: white;
+    height: 270px;
+}
+
+.foot_3 {
+    width: 235px;
+    margin: -290px 0px 0px 725px;
+    color: white;
+    height: 270px;
+}
+
+.foot_4 {
+    width: 235px;
+    margin: -288px 0px 0px 1030px;
+    color: white;
+    height: 270px;
+}
+
+.foot_4 .li {
+    position: relative;
+    top: -20px;
+}
+
+.trait {
+    height: 1px;
+    width: 800px;
+    background: linear-gradient(270deg, #18be, #ff6600);
+    margin: 25px 0px 0px 275px;
+}
+
+.menu_footer {
+    width: 700px;
+    margin: 10px 0px 0px 260px;
+    position: relative;
+    left: 20px;
+}
+
+.menu_footer ul li {
+    text-decoration: none;
+    font-family: cursive;
+    list-style: none;
+    float: left;
+    display: block;
+    margin: -12px 0px 0px 70px;
+    font-size: 17px;
+}
+
+.menu_footer ul li a {
+    text-decoration: none;
+    outline: none;
+    color: #ff6600;
+    transition: 0.3s;
+}
+
+.menu_footer ul li a:hover {
+    color: #18be;
+}
+
+.copyright {
+    position: relative;
+    display: block;
+    color: white;
+    font-family: cursive;
+    right: 445px;
+    top: 20px;
+}
+
+.jobss {
+    color: #18be;
+}
+
+.foot_1 h1 {
+    background: linear-gradient(270deg, #18be, #ff6600);
+    width: 105px;
+    border-radius: 5px;
+}
+
+.foot_2 h1 {
+    background: linear-gradient(270deg, #18be, #ff6600);
+    width: 185px;
+    border-radius: 5px;
+
+}
+
+.foot_3 h1 {
+    background: linear-gradient(270deg, #18be, #ff6600);
+    width: 185px;
+    border-radius: 5px;
+
+}
+
+.foot_4 h1 {
+    background: linear-gradient(270deg, #18be, #ff6600);
+    width: 135px;
+    border-radius: 5px;
+
+}
+
+.fin img {
+    width: 50px;
+    height: 88px;
+    margin: -6px 0px 0px 630px;
+}
+
+.fin {
+    height: 80px;
+}
